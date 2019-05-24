@@ -30,12 +30,8 @@ public class Main {
                 }
                 char [] toGuessMovie;
                 toGuessMovie = selectedMovie.toCharArray();
-       /* for( i =0;i<selectedMovie.length();i++){
-
-            System.out.print(toGuessMovie[i]);
-        }*/
-        Game game = new Game();
-        game.startGame(toGuessMovie);
+               Game game = new Game();
+               game.startGame(toGuessMovie);
 
             }
         }
