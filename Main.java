@@ -4,9 +4,8 @@ import java.io.File;
 import java.util.Scanner;
 
 public class Main {
-    // write your code here
     public static void main (String[] args)throws Exception {
-                // write your code here
+              //you can insert your own file by replacing "movies.txt" by the file name you have.   
                 File file = new File("movies.txt");
                 Scanner scanner = new Scanner(file);
                 String words = "";
